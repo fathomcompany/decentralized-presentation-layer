@@ -1,0 +1,25 @@
+#open-ui-toggle {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 10%;
+  width: 40px;
+  height: 40px;
+  background: red;
+  z-index: 99999999;
+  transform: translateX(-60%) scale(0.8);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#open-ui-toggle:hover,
+#open-ui-toggle:active {
+  transform: none;
+}
+
+/* WarFish.net example */
+/* * {
+  font: 22px "Comic Sans", "Brush Script MT", sans-serif !important;
+  font-family: "Comic Sans", "Brush Script MT", sans-serif !important;
+  font-size: 22px !important;
+} */
