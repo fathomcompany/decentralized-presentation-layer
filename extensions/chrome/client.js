@@ -43,7 +43,7 @@ function init() {
     link.id = cssId;
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://website.com/css/stylesheet.css';
+    link.href = 'https://cdn.jsdelivr.net/gh/fathomcompany/decentralized-presentation-layer/css/'+host+'.css';
     link.media = 'all';
     link.onerror = function (e) {
       console.log('This site has not been augmented. Start designing here: ')

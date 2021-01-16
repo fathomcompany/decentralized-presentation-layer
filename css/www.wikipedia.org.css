@@ -1,3 +1,13 @@
 body {
-  background: green !important;
+  background: white !important;
+}
+
+.central-textlogo:after {
+  content: "🙃";
+  display: block;
+  position: relative;
+  font-size: 226px;
+  z-index: 10;
+  top: 165px;
+  left: 0;
 }
